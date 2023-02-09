@@ -13,7 +13,7 @@ resultstext.innerHTML += `If the temperature is ${kelvin} degrees Kelvin, then:<
 //Temperature in Fahrenheit
 resultstext.innerHTML +=`The temperature is ${fahrenheit} degrees Fahrenheit.`+ "<br>";
 //Temperature in Celsius
-resultstext.innerHTML +=`The temperature is ${celsius} degrees Celsius,`+ "<br>";
+resultstext.innerHTML +=`The temperature is ${celsius} degrees Celsius.`+ "<br>";
 //Extra: converting to Newton
 let newton = celsius * (33/100);
 //We will need to round down the temperature so that we don't get a decimal
